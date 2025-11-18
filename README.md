@@ -353,22 +353,4 @@ line vty 0 4
 
 ---
 
-## ✅ What You Can Skip
-- The long Arabic explanation of each library.
-  - Useful for learning, but not necessary for installation workflow.
-
-- What matters is the core workflow:
-  1. Install dependencies  
-  2. Build from source  
-  3. Configure  
-  4. Add rules  
-  5. Test  
-
-- **Order is important**  
-  Each component depends on the previous one — you cannot skip or install out of order.
-
----
-
-## 📌 Final Added Note (as requested)
-The document contains many detailed explanations about what each library does and why it's needed. These are useful for understanding how Snort works internally, but they are not required to successfully complete the installation. The essential part is following the correct installation sequence, because every component depends on the previous one. The workflow remains: install dependencies → build → configure → test with rules.
 
